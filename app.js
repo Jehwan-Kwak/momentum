@@ -1,10 +1,9 @@
+const loginInput = document.querySelector("#login-form input");
+const loginButton = document.querySelector("#login-form button");
 
-const player = {
-    name: "jehwan",
-    sayHello: function (otherPersonsName) {
-        console.log("hello! " + otherPersonsName + " nice to meet you!")
-    },
-};
+function onLoginBtnClick () {
+    console.log(loginInput.value);
+    console.log("click!!");
+}
 
-console.log(player.name);
-player.sayHello("edo");
+loginButton.addEventListener("click", onLoginBtnClick);
