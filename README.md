@@ -1,2 +1,2 @@
-# momentum
+# Vanilla JS challenge
  
